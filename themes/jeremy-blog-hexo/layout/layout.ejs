@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+
+    <title><%= config.title %></title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+
+    <!-- Font and Icon CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <a href="https://jeremyshaw.co.nz/">
+                <li>
+                    <span class="icon is-small"><i class="fa fa-home"></i></span>
+                    <span class="nav-text">Home</span>
+                </li>
+            </a>
+            <a href="https://jeremyshaw.co.nz/projects">
+                <li>
+                    <span class="icon is-small"><i class="fa fa-laptop"></i></span>
+                    <span class="nav-text">Projects</span>
+                </li>
+            </a>
+            <a href="https://jeremyshaw.co.nz/education">
+                <li>
+                    <span class="icon is-small"><i class="fa fa-graduation-cap"></i></span>
+                    <span class="nav-text">Education</span>
+                </li>
+            </a>
+            <a href="https://jeremyshaw.co.nz/contact">    
+                <li class="nav-last">
+                    <span class="icon is-small"><i class="fa fa-phone"></i></span>
+                    <span class="nav-text">Contact</span>
+                </li>
+            </a>
+        </ul>
+    </div>
+ <div class='blog-container'>
+    <%- body %>
+ </div>
+</body>
+</html>

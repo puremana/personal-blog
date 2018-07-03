@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Jeremy Shaw Blog
 subtitle:
 description:
 keywords:
-author: John Doe
+author: Jeremy Shaw
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://blog.jeremyshaw.co.nz
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -62,7 +62,7 @@ tag_map:
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
-date_format: YYYY-MM-DD
+date_format: Qo MMMM, YYYY
 time_format: HH:mm:ss
 
 # Pagination
@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: jeremy-blog-hexo
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

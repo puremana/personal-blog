@@ -31,7 +31,7 @@
     height: 50px;
     line-height: 50px;
     vertical-align: middle;
-    margin: 15px 1vw 15px 1vw;
+    margin: 15px 0.4vw 15px 0.4vw;
     border-radius: 2px;
     text-align: center;
     border: 1px solid rgba(128, 128, 128, 0.205);
@@ -64,6 +64,13 @@
     font-size: 1.4em;
     /*margin-bottom: 10px;*/
   }
+  .post p {
+    margin-bottom: 10px;
+  }
+  .post li {
+    list-style-type: none;
+    word-wrap: break-word;
+  }
   .date {
     font-style: italic;
     color: grey;
@@ -75,6 +82,9 @@
     display: inline-block;
     margin: 20px 10px 0px 0px;
     background: #2185d0;
+  }
+  .button-container {
+    margin-bottom: 50px;
   }
   .tag-list {
     margin-top: 10px;
@@ -105,6 +115,9 @@
     background: #1dcaff;
     width: 16px;
     text-align: center;
+  }
+  .mbom {
+    margin-bottom: 10px;
   }
 
   

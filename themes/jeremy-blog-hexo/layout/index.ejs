@@ -8,7 +8,7 @@
     <% page.posts.each(function(post){ %>
         <li class="post">
             <h3><a href="<%- url_for(post.path) %>"><%= post.title %></a></h3>
-               <p class="date">
+               <p class="date mbom">
                    <%= date(post.date, config.date_format) %> 
                </p>
                
@@ -16,7 +16,6 @@
                    <p>
                        <%- post.excerpt %>
                    </p>
-                   <a href="<%- url_for(post.path) %>"><div class="button">Read More...</div></a>
                <% } %>
                <% if (post.tags && post.tags.length){ %>
                 <%- list_tags(post.tags, {
@@ -25,6 +24,11 @@
                 }) %>
               <% } %>
         </li>
+        <div class="button-container">
+            <a href="<%- url_for(post.path) %>"><div class="button">Read More...</div></a>
+            <a href='<%- "https://www.facebook.com/sharer.php?u=" + post.permalink %>'  target="_blank"><div class="button right fb"><i class="fab fa-facebook-f" aria-hidden="true"></i></div></a>
+            <a href='<%- "https://twitter.com/intent/tweet?url=" + post.permalink %>' target="_blank"><div class="button right tw"><i class="fab fa-twitter" aria-hidden="true"></i></div></a>        
+        </div>
       <% }) %>
     </ul>
    </div>

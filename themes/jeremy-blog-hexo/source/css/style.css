@@ -62,7 +62,7 @@
   }
   .post h3 {
     font-size: 1.4em;
-    /*margin-bottom: 10px;*/
+    margin-bottom: 10px;
   }
   .post p {
     margin-bottom: 10px;
@@ -70,6 +70,21 @@
   .post li {
     list-style-type: none;
     word-wrap: break-word;
+  }
+  .post hr {
+    margin: 15px 0 15px 0;
+    border: 0.5px solid rgba(128, 128, 128, 0.205)
+  }
+  .post code {
+    background-color: #f6f8fa;
+    line-height: 1.45;
+    border-radius: 3px;
+    width: 90%;
+    margin: 10px 5px 10px 5px;
+    padding: 10px 10px 10px 10px;
+    display: block;
+    margin: 0 auto 0 auto;
+    letter-spacing: 1px;
   }
   .date {
     font-style: italic;

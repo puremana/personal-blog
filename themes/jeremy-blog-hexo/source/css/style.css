@@ -23,6 +23,7 @@
     background-color: white;
     border-bottom: 1px solid rgba(128, 128, 128, 0.205);
     position: fixed;
+    z-index: 100;
   }
   .nav li {
     list-style-type: none;

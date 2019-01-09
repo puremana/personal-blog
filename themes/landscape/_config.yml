@@ -2,6 +2,7 @@
 menu:
   Home: /
   Archives: /archives
+  Terms: /terms-of-service
 rss: /atom.xml
 
 # Content

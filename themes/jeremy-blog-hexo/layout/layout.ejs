@@ -18,6 +18,10 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/5.7.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.7.2/firebase-firestore.js"></script>
+
 </head>
 <body>
     <div class="nav">
@@ -50,6 +54,36 @@
     </div>
  <div class='blog-container'>
     <%- body %>
+
+    <ul class="footer">
+        <a href="/privacy-policy">
+            <li>Privacy Policy</li>
+        </a>
+    </ul>
+    <div id="email-box">
+        <h4>Email Subscription</h4>
+        <hr>
+        <p id="email-box-text">Enter your email below to get blog post notifications</p>
+        <input id="email-subscription" type="text">
+        <div class="button hover dismiss" onclick="dismiss()"><i class="fa fa-times-circle" aria-hidden="true"></i> Dismiss</div>
+        <div class="button hover right" onclick="subscribe()" id="subscribe-button"><i class="fa fa-envelope" aria-hidden="true"></i> Subscribe</div>
+    </div>
  </div>
+
+ <script>
+   // Initialize Firebase
+   var config = {
+     apiKey: "AIzaSyC8gktwM_-yeztzHJ26yRW__e-OZZMQoQs",
+     authDomain: "personal-blog-8f2f7.firebaseapp.com",
+     databaseURL: "https://personal-blog-8f2f7.firebaseio.com",
+     projectId: "personal-blog-8f2f7",
+     storageBucket: "personal-blog-8f2f7.appspot.com",
+     messagingSenderId: "1060930764813"
+   };
+   firebase.initializeApp(config);
+   const db = firebase.firestore();
+   db.settings({ timestampsInSnapshots: true });
+ </script>
+ <script src="/js/script.js"></script>
 </body>
 </html>

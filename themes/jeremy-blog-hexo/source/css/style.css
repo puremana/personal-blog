@@ -74,7 +74,9 @@
   }
   .post hr {
     margin: 15px 0 15px 0;
-    border: 0.5px solid rgba(128, 128, 128, 0.205)
+  }
+  hr {
+    border: 0.5px solid rgba(128, 128, 128, 0.205);
   }
   .post code {
     background-color: #f6f8fa;
@@ -132,6 +134,9 @@
     width: 16px;
     text-align: center;
   }
+  .dismiss {
+    background: rgb(185, 0, 0);
+  }
   .mbom {
     margin-bottom: 10px;
   }
@@ -149,4 +154,52 @@
   }
   p img {
     width: 100%;
+  }
+  #email-box {
+    display: none;
+    transition: display 2s;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.205);
+    padding: 10px 20px;
+    border-radius: 2px;
+    width: 400px;
+    max-width: 80vw;
+    background-color: white;
+    visibility: visible;
+    opacity: 1;
+  }
+  #email-box hr {
+    margin: 10px 0 10px 0;
+  }
+  #email-box input {
+    width: 92%;
+    padding: 10px;
+    margin: 10px auto 0 auto;
+    border: 1px solid rgba(128, 128, 128, 0.205);
+    border-radius: 2px;
+  }
+  #email-box .button {
+    margin: 10px 10px 5px 0px;
+  }
+  .hover {
+    cursor: pointer;
+  }
+  .hidden {
+    visibility: hidden !important;
+    opacity: 0 !important;
+    transition: visibility 0s 0.5s, opacity 0.5s linear !important;
+  }
+  .indent {
+    padding-left: 20px;
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  .footer {
+    margin-bottom: 40px;
+  }
+  .footer li {
+    list-style-type: none;
+    text-align: center;
   }

@@ -191,3 +191,15 @@
     opacity: 0 !important;
     transition: visibility 0s 0.5s, opacity 0.5s linear !important;
   }
+  .indent {
+    padding-left: 20px;
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  .footer {
+    margin-bottom: 40px;
+  }
+  .footer li {
+    list-style-type: none;
+    text-align: center;
+  }

@@ -6,9 +6,14 @@ window.onload = function() {
 }
 
 function subscribe() {
-    localStorage.setItem('subbed', true);
     let email = document.getElementById('email-subscription').value;
     if (validateEmail(email)) {
+        // Adding to Firestore
+        db.collection('subscription').add({
+            email: email
+        });
+
+        localStorage.setItem('subbed', true);
         document.getElementById('subscribe-button').textContent = "Subscribed!";
         document.getElementById('email-box-text').textContent = "Thank you for subscribing!";
         document.getElementById('email-box-text').style.color = 'black';

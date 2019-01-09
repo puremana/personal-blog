@@ -156,6 +156,8 @@
     width: 100%;
   }
   #email-box {
+    display: none;
+    transition: display 2s;
     position: fixed;
     right: 10px;
     bottom: 10px;
@@ -165,6 +167,8 @@
     width: 400px;
     max-width: 80vw;
     background-color: white;
+    visibility: visible;
+    opacity: 1;
   }
   #email-box hr {
     margin: 10px 0 10px 0;
@@ -178,4 +182,12 @@
   }
   #email-box .button {
     margin: 10px 10px 5px 0px;
+  }
+  .hover {
+    cursor: pointer;
+  }
+  .hidden {
+    visibility: hidden !important;
+    opacity: 0 !important;
+    transition: visibility 0s 0.5s, opacity 0.5s linear !important;
   }

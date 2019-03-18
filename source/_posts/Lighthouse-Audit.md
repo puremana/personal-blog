@@ -1,5 +1,5 @@
 ---
-title: Lighthouse-Audit
+title: Lighthouse Audit
 date: 2019-03-18 20:09:41
 tags:
 - Web Development

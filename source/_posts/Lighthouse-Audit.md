@@ -1,5 +1,6 @@
 ---
 title: Lighthouse Audit
+description: Although Google's Open Source Lighthouse project was integrated into Chrome in early 2017, I had yet to explore and experiment with this feature. It was only after I accidentally stumbled upon it that I realized it provided me with new and interesting insights into my web apps.
 date: 2019-03-18 20:09:41
 tags:
 - Web Development

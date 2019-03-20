@@ -1,6 +1,7 @@
 ---
 title: Hello 'Real' World
 date: 2018-07-04 20:01:41
+description: Considering I completed university only a few weeks ago, *Hello 'Real' World* seems like a suitable title for my first post on this blog. Up until now I have been a full time student at Waikato University studying a Bachelor of Science, majoring in Computer Science.
 tags:
 - University
 - Real World 

@@ -2,8 +2,22 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', 'Trebuchet MS', Helvetica, sans-serif;
 }
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0e.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOUuhs.ttf) format('truetype');
+} 
 a {
   color: rgb(0, 110, 255);
   text-decoration: inherit;

@@ -143,6 +143,11 @@ I received a 98/100 on performance due to chaining too many resources. Adding th
 ![](/images/20190317/pingdom-test-2.jpg)
 
 Even though my performance rating barely improved, this Pingdom test shows the progress I made. This value seems somewhat inconsistent though, which has lead me to investigate solutions... Stay tuned for the next blog post!
+
+**Edit 2019/03/25: **
+I imported EmailJS instead of deferring it as a script link. This generated a perfect score and minimized my load time even though practically, it shouldn't have affected anything. The inital page load speed has remained the same.
+
+![](/images/20190317/lighthouse-test-3.jpg)
 ___
 
 Learn something new? Want to correct one of my blunders? Feel free to leave a comment below! Thank you for reading.

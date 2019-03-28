@@ -19,7 +19,7 @@
   src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v15/mem5YaGs126MiZpBA-UNirkOUuhs.ttf) format('truetype');
 } 
 a {
-  color: rgb(0, 110, 255);
+  color: rgb(0, 110, 253);
   text-decoration: inherit;
 }
 a:hover {
@@ -53,6 +53,11 @@ h2 {
 }
 li:hover {
   color: black;
+}
+.nav li a {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 .icon {
   margin-right: 0.5vw;
@@ -163,7 +168,7 @@ tr .code {
   color: black;
 }
 .tag-list-item a:hover {
-  color: rgb(0, 110, 255);
+  color: rgb(0, 110, 253);
 }
 .right {
   float: right;

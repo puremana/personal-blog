@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -7,21 +7,33 @@
 
     <link rel="manifest" href="/manifest.json">
 
-    <% if (page.title) { %>
-        <title><%= config.title %> - <%= page.title %></title>
-    <% } %>
-    <% if (!page.title) { %>
+    <%_ if (page.title) { %>
+        <title><%= page.title %> - <%= config.title %></title>
+        <meta property="og:title" content="<%= page.title %> - <%= config.title %>" />
+        <meta name="twitter:title" content="<%= page.title %> - <%= config.title %>">
+    <%_ } %>
+    <%_ if (!page.title) { %>
         <title><%= config.title %></title>
+        <meta property="og:title" content="<%= config.title %>" />
+        <meta name="twitter:title" content="<%= config.title %>">
     <% } %>
     
-    <% if (page.description) { %>
+    <%_ if (page.description) { %>
         <meta name="description" content="<%= page.description %>">
-    <% } %>
-    <% if (!page.description) { %>
+        <meta property="og:description" content="<%= page.description %>" />
+        <meta name="twitter:description" content="<%= page.description %>">
+    <%_ } %>
+    <%_ if (!page.description) { %>
         <meta name="description" content="A blog about my journey as a web developer.">
-    <% } %>
+        <meta property="og:description" content="A blog about my journey as a web developer." />
+        <meta name="twitter:description" content="A blog about my journey as a web developer.">
+    <%_ } %>
     
-    <meta name="keywords" content="Jeremy, Shaw, Jeremy Shaw, blog, web, website, development, php, javascript, js">
+    <meta name="keywords" content="Jeremy, Shaw, Jeremy Shaw, blog, development, php, javascript, js">
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="<%= page.permalink %>" />
+    <meta property="og:site_name" content="Jeremy Shaw Blog" />
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">

@@ -28,12 +28,26 @@
         <meta property="og:description" content="A blog about my journey as a web developer." />
         <meta name="twitter:description" content="A blog about my journey as a web developer.">
     <%_ } %>
-    
-    <meta name="keywords" content="Jeremy, Shaw, Jeremy Shaw, blog, development, php, javascript, js">
+
+    <%_ if (page.thumbnail) { %>
+        <meta property="og:image" content="<%= page.thumbnail %>" />
+        <meta name="twitter:image" content="<%= page.thumbnail %>">
+    <%_ } %>
+    <%_ if (!page.thumbnail) { %>
+        <meta property="og:image" content="/images/profile.png" />
+        <meta name="twitter:image" content="/images/profile.png">
+    <%_ } %>
+
+    <meta name="keywords" content="Jeremy, Shaw, Jeremy Shaw, blog, development, php, javascript, js, <%= page.keywords %>">
 
     <meta property="og:type" content="website" />
     <meta property="og:url" content="<%= page.permalink %>" />
     <meta property="og:site_name" content="Jeremy Shaw Blog" />
+
+    <!-- Geo Tags -->
+    <meta name="geo.position" content="37.8109; 175.7765">
+    <meta name="geo.placename" content="Matamata, New Zealand">
+    <meta name="geo.region" content="NZ-WKO">
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">

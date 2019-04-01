@@ -2,6 +2,8 @@
 title: CORS And Hiding Api Keys
 date: 2018-11-19 13:18:16
 description: Are you a victim of your food routine? Last Wednesday my coworker and I were just about to head out on our lunch break when he mentioned he would once again get a kebab. I mean don't get me wrong, the kebabs in Matamata are delicious but we have definitely haven't explored all of the options around us and getting a kebab every day isn't going to help.
+thumbnail: /images/20181119/random-food-picker.jpg
+keywords: food, cloud functions, firebase
 tags:
 - Food
 - Cloud Functions
@@ -31,6 +33,9 @@ I can easily write one of these cloud functions to make a request on my behalf w
 Below I have included a working example without any domain or authentication checks just to show you just how easy it is (all 14 lines of it!).
 <https://github.com/puremana/food-roulette/blob/master/functions/index.js.example>
 
+Here is a look at the finished product.
+
+![](/images/20181119/random-food-picker.jpg)
 ___
 
 Thanks for reading! I think it's important every now and again to do small fun little projects like this as too many of us just end up working on massive projects and we forget how fun it is to just deploy something that works.

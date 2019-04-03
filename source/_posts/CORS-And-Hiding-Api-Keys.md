@@ -17,6 +17,7 @@ We joked that what we needed is to just pick a random food business around us, a
 As web developers the next step was obvious, make a super simple food roulette app and deploy it as fast as possible.
 
 <!-- more -->
+
 ### Food Roulette Web App
 
 So that night I sat down to begin development on this food roulette app. Due to Google Place API's recent increase in cost, I went with the only alternative I could find that satisfied my requirements of an extensive network of food businesses while providing high-quality images and ratings (there are a ton of food business APIs that don't contain any photos). This alternative was the [Yelp Fusion API](https://www.yelp.com/fusion "Yelp Fusion API").
@@ -35,7 +36,7 @@ Below I have included a working example without any domain or authentication che
 
 Here is a look at the finished product.
 
-![](/images/20181119/random-food-picker.jpg)
+![Random Food Picker web application screenshot](/images/20181119/random-food-picker.jpg)
 ___
 
 Thanks for reading! I think it's important every now and again to do small fun little projects like this as too many of us just end up working on massive projects and we forget how fun it is to just deploy something that works.

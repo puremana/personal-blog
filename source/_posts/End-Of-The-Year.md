@@ -2,6 +2,8 @@
 title: End Of The Year
 date: 2018-12-20 23:30:25
 description: Yesterday was my last day of work for the year, so I figured what better time to write a blog post to reflect on my experience so far while it's still fresh in my memory (before the Christmas festivities). I also think it would be a good idea to list what I hope to achieve over the holidays so I can hold myself somewhat self-accountable and not just waste this perfect opportunity to put to rest all of my longer-term projects!
+thumbnail: /images/20181222/trello.jpg
+keywords: christmas, holidays, real world
 tags:
 - Christmas
 - Holidays
@@ -12,6 +14,7 @@ tags:
 Yesterday was my last day of work for the year, so I figured what better time to write a blog post to reflect on my experience so far while it's still fresh in my memory (before the Christmas festivities). I also think it would be a good idea to list what I hope to achieve over the holidays so I can hold myself somewhat self-accountable and not just waste this perfect opportunity to put to rest all of my longer-term projects!
 
 <!-- more -->
+
 ### My Work Experience
 
 I never would have thought I would learn this much in such a relatively small amount of time in web development. I learn something new every day, and I could just about write a blog post on just about every one of them. There's so much to learn and even more to achieve. Not at all what I expected when I accepted the job offer earlier this year!
@@ -24,7 +27,7 @@ As I mentioned in my introduction, there's a lot of projects I want to finish of
 
 For this reason, I have decided to block Facebook on my laptop and remove it from my phone, and start a Trello board to keep tabs on all of my Christmas tasks. Below is a screenshot of my Trello board which I have filled up to keep me busy to start with.
 
-![](/images/20181222/trello.jpg)
+![Trello personal christmas break projects screenshot](/images/20181222/trello.jpg)
 
 ### Conclusion
 
@@ -32,4 +35,4 @@ Writing this post is a commitment to myself that I will try to achieve as much o
 
 ___
 
-Thanks for reading! Interested to see how I've been doing so far? You can check out the Trello board I made over here <a href="https://trello.com/b/oMSUNa0p/jeremys-holiday">https://trello.com/b/oMSUNa0p/jeremys-holiday</a>
+Thanks for reading! Interested to see how I've been doing so far? You can check out the Trello board I made over here [https://trello.com/b/oMSUNa0p/jeremys-holiday](https://trello.com/b/oMSUNa0p/jeremys-holiday)

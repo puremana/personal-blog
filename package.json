@@ -16,6 +16,7 @@
     "hexo-renderer-stylus": "^0.3.1",
     "hexo-server": "^0.2.0",
     "lodash": ">=4.17.11",
-    "morgan": ">=1.9.1"
+    "morgan": ">=1.9.1",
+    "js-yaml": ">=3.13.1"
   }
 }

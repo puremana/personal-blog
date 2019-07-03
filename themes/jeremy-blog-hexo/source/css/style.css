@@ -28,6 +28,12 @@ a:hover {
 h2 {
   font-size: 3em;
 }
+.italic {
+  font-style: italic;
+}
+.grey {
+  color: grey;
+}
 /* Navigation */
 .nav {
   width: 100vw;

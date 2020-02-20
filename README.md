@@ -43,6 +43,12 @@ Clean the cache and generated files
 hexo clean
 ```
 
+Index the posts in Algolia for search functionality
+
+``` bash
+hexo algolia
+```
+
 Start the local Firebase server
 
 ``` bash

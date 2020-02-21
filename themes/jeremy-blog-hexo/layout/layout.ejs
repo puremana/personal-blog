@@ -110,7 +110,7 @@
         </ul>
     </div>
  <div class='blog-container'>
-    <input type="text" id="search-input" placeholder="Search..." />
+    <input type="text" id="search-input" class="search" placeholder="Search..." />
 
     <%- body %>
 
@@ -157,7 +157,7 @@
       displayKey: 'title',
       templates: {
         suggestion: function(suggestion) {
-          return suggestion._highlightResult.title.value;
+          return '<span>' + suggestion._highlightResult.title.value + '</span>';
         }
       }
     }

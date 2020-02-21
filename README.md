@@ -15,6 +15,8 @@ View all Hexo commands at [https://hexo.io/docs/commands](https://hexo.io/docs/c
 
 View all Firebase commands at [https://firebase.google.com/docs/cli/](https://firebase.google.com/docs/cli/)
 
+_To setup the configuration, please rename `_config.yml.example` to `_config.yml`._
+
 Start the server
 
 ``` bash

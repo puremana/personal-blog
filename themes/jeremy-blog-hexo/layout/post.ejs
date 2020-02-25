@@ -2,8 +2,10 @@
   <a href="/">Blog Home</a>
   <span class="grey">> <%- page.title %></span>
 </p>
-<h2><%- page.title %></h2>
-<p class="date"><%= date(page.date, config.date_format) %> </p>
+<div class="post-header-wrapper">
+  <h2><%- page.title %></h2>
+  <p class="date"><%= date(page.date, config.date_format) %> </p>
+</div>
 <p class="grey">Time to read: <%- symbolsTime(page.content) %></p>
 <div class='post'>
     <%- page.content %>

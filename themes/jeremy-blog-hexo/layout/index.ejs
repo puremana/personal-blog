@@ -4,25 +4,25 @@
         <p><%= config.subtitle %></p> -->
    </div>
    <div class='row'>
-    <ul>
+    <ul class="home-posts">
     <% page.posts.each(function(post){ %>
         <li class="post">
-            <h3><a href="<%- url_for(post.path) %>"><%= post.title %></a></h3>
-               <p class="date mbom">
-                   <%= date(post.date, config.date_format) %> 
-               </p>
-               <p class="grey">Time to read: <%- symbolsTime(post.content) %></p>
-               <% if(post.excerpt) { %>
-                   <p>
-                       <%- post.excerpt %>
-                   </p>
-               <% } %>
-               <% if (post.tags && post.tags.length){ %>
+            <div class="post-header-wrapper">
+                <h3><a href="<%- url_for(post.path) %>"><%= post.title %></a></h3>
+                <p class="date mbom"><%= date(post.date, config.date_format) %> </p>
+            </div>
+            <p class="grey">Time to read: <%- symbolsTime(post.content) %></p>
+            <% if(post.excerpt) { %>
+                <p>
+                    <%- post.excerpt %>
+                </p>
+            <% } %>
+            <% if (post.tags && post.tags.length){ %>
                 <%- list_tags(post.tags, {
-                  show_count: false,
-                  class: 'tag'
+                    show_count: false,
+                    class: 'tag'
                 }) %>
-              <% } %>
+            <% } %>
         </li>
         <div class="button-container">
             <a href="<%- url_for(post.path) %>"><div class="button">Read More...</div></a>

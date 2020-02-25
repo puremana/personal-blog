@@ -92,7 +92,7 @@ li:hover {
   position: relative;
   z-index: 1;
 	top: -6px;
-	border-radius: 3px;
+	border-radius: 2px;
 	margin: 6px 0 0;
 	padding: 0;
 	text-align: left;
@@ -167,11 +167,16 @@ li:hover {
   margin: 0 auto 0 auto;
 }
 .post {
-  border: 1px solid rgba(128, 128, 128, 0.205);
-  padding: 10px 20px;
-  border-radius: 2px;
-  margin: 20px 0 0px 0;
+  padding: 10px 0;
   list-style: none;
+}
+.home-posts .post {
+  margin: 10px 0 0 0;
+}
+.post-header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .post h3 {
   font-size: 1.6em;
@@ -237,10 +242,10 @@ tr .code {
 }
 .button {
   padding: 10px 20px;
-  border-radius: 5px;
+  border-radius: 2px;
   color: white;
   display: inline-block;
-  margin: 20px 10px 0px 0px;
+  margin: 5px 10px 0px 0px;
   background: #2185d0;
 }
 .button-container {
@@ -250,7 +255,7 @@ tr .code {
   margin-top: 10px;
 }
 .tag-list-item {
-  border-radius: 5px;
+  border-radius: 2px;
   padding: 5px 10px;
   font-size: 0.8em;
   display: inline-block;

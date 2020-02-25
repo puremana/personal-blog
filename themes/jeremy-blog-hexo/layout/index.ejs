@@ -11,7 +11,7 @@
                <p class="date mbom">
                    <%= date(post.date, config.date_format) %> 
                </p>
-               
+               <p class="grey">Time to read: <%- symbolsTime(post.content) %></p>
                <% if(post.excerpt) { %>
                    <p>
                        <%- post.excerpt %>

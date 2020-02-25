@@ -4,6 +4,7 @@
 </p>
 <h2><%- page.title %></h2>
 <p class="date"><%= date(page.date, config.date_format) %> </p>
+<p class="grey">Time to read: <%- symbolsTime(page.content) %></p>
 <div class='post'>
     <%- page.content %>
     <% if (page.tags && page.tags.length){ %>

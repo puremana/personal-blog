@@ -11,7 +11,6 @@ tags:
 - Taupo
 - Matamata
 ---
-### Introduction
 
 For much of my life, I have been considering exactly what ratio of career to lifestyle is ideal. Even before University, I was pondering where and how I should be living. Career gives meaning and obviously the ability to afford lifestyle, but lifestyle allows you to find enjoyment, refresh your mind and give you something to progress on outside of work. There's also the added benefit of being more physically healthy depending on your lifestyle activities.
 

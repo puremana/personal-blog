@@ -9,7 +9,6 @@ tags:
 - Holidays
 - Real World
 ---
-### Introduction
 
 Yesterday was my last day of work for the year, so I figured what better time to write a blog post to reflect on my experience so far while it's still fresh in my memory (before the Christmas festivities). I also think it would be a good idea to list what I hope to achieve over the holidays so I can hold myself somewhat self-accountable and not just waste this perfect opportunity to put to rest all of my longer-term projects!
 

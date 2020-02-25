@@ -10,7 +10,6 @@ tags:
 - Hexo
 - Firebase
 ---
-### Introduction
 
 The idea in creating this blog is that I can record the development of myself as a programmer in the world.
 

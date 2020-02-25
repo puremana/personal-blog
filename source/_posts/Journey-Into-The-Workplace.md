@@ -9,7 +9,6 @@ tags:
 - Laravel
 - Real World
 ---
-### Introduction
 
 Following up to my last post, I was indeed successful in landing a junior position at a web development company, marking the beginning of my journey as a professional developer.
 

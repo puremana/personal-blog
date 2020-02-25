@@ -9,7 +9,6 @@ tags:
 - Cloud Functions
 - Firebase
 ---
-### Introduction
 
 Are you a victim of your food routine? Last Wednesday my coworker and I were just about to head out on our lunch break when he mentioned he would once again get a kebab. I mean don't get me wrong, the kebabs in Matamata are delicious but we have definitely haven't explored all of the options around us and getting a kebab every day isn't going to help.
 

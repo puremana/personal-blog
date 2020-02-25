@@ -8,13 +8,14 @@
 </div>
 <p class="grey">Time to read: <%- symbolsTime(page.content) %></p>
 <div class='post'>
-    <%- page.content %>
-    <% if (page.tags && page.tags.length){ %>
-                <%- list_tags(page.tags, {
-                  show_count: false,
-                  class: 'tag'
-                }) %>
-              <% } %>
+  <h3>Introduction</h3>
+  <%- page.content %>
+  <% if (page.tags && page.tags.length){ %>
+              <%- list_tags(page.tags, {
+                show_count: false,
+                class: 'tag'
+              }) %>
+            <% } %>
 </div>
 <div class="button-container">
     <a href="/"><div class="button"><i class="fa fa-home" aria-hidden="true"></i> Blog Home</div></a>

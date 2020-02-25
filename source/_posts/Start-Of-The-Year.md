@@ -9,7 +9,6 @@ tags:
 - Holidays
 - Real World
 ---
-### Introduction
 
 If you read my last post about the end of 2018, you will know I had a comprehensive list of side projects I wanted to get done over my Christmas break. This post will be a reflection of what I accomplished as well as including the goals I have set myself for 2019.
 

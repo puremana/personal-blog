@@ -32,7 +32,7 @@ I want to be an intermediate full-stack developer before the end of 2019.
 
 This is a big goal, but considering the amount of time I put into web development, I am confident this is possible and I will work for it every step of the way. My other goals include investing more of my cash flow and contributing to three or more Laravel based projects on Github.
 
-All of these are measurable and while it may take some time, I will report the progress as it happens. 
+All of these are measurable and while it may take some time, I will report the progress as it happens.
 
 ### Conclusion
 

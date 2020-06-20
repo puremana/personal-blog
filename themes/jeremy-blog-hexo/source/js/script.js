@@ -33,3 +33,20 @@ function validateEmail(email) {
     var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(String(email).toLowerCase());
 }
+
+function toggleMode() {
+    let mode = !document.querySelector("body").classList.contains('dark');
+    displayMode(mode);
+}
+
+function displayMode(dark) {
+    let body = document.querySelector("body");
+    let button = document.getElementById('dark-mode');
+    if (dark) {
+        body.classList.add('dark');
+        button.innerHTML = '<span class="icon is-small"><i class="fa fa-sun"></i></span>Light Mode'
+    } else {
+        body.classList.remove('dark');
+        button.innerHTML = '<span class="icon is-small"><i class="fa fa-moon"></i></span>Dark Mode'
+    }
+}

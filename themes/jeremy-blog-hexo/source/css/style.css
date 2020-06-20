@@ -309,8 +309,8 @@ p img {
   display: none;
   transition: display 2s;
   position: fixed;
-  right: 10px;
-  bottom: 10px;
+  right: 30px;
+  bottom: 70px;
   border: 1px solid rgba(128, 128, 128, 0.205);
   padding: 10px 20px;
   border-radius: 2px;
@@ -352,4 +352,15 @@ p img {
 .footer li {
   list-style-type: none;
   text-align: center;
+}
+/* Dark Mode */
+.dark-mode {
+  position: fixed;
+  background: #444444;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+.dark-mode:hover {
+  background: #313131;
 }

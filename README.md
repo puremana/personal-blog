@@ -1,7 +1,5 @@
 # Personal Blog
 
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
-
 My personal Jeremy Shaw blog made using [Hexo](https://hexo.io/). Uses Firebase [Hosting](https://firebase.google.com/docs/hosting/) and [Functions](https://firebase.google.com/docs/functions/).
 
 Uses an entirely custom Hexo theme which can be found in `themes/jeremy-blog-hexo`.

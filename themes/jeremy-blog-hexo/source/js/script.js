@@ -3,6 +3,26 @@ window.onload = function() {
     if (!sub) {
         document.getElementById('email-box').style.display = 'block';
     }
+
+    let darkMode = false;
+    // Load previous state
+    if (localStorage.getItem("darkMode") !== null) {
+      darkMode = localStorage.getItem("darkMode") === "true"
+    } else {
+      // Load preference
+      if (typeof window !== 'undefined') {
+        darkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+      }
+    }
+
+    let urlParams = new URLSearchParams(window.location.search);
+    let darkParam = urlParams.get('dark');
+    if (darkParam) {
+        darkMode = darkParam === "true";
+        localStorage.setItem("darkMode", darkMode);
+    }
+
+    displayMode(darkMode);
 }
 
 function subscribe() {
@@ -36,6 +56,7 @@ function validateEmail(email) {
 
 function toggleMode() {
     let mode = !document.querySelector("body").classList.contains('dark');
+    localStorage.setItem("darkMode", mode);
     displayMode(mode);
 }
 

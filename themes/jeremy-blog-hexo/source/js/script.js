@@ -1,7 +1,7 @@
 window.onload = function() {
     let sub = localStorage.getItem('subbed');
     if (!sub) {
-        document.getElementById('email-box').style.display = 'block';
+        document.getElementById('show-subscribe').style.display = 'block';
     }
 
     let darkMode = false;
@@ -25,6 +25,11 @@ window.onload = function() {
     displayMode(darkMode);
 }
 
+function showSubscribe() {
+    document.getElementById('show-subscribe').style.display = 'none';
+    document.getElementById('email-box').style.display = 'block';
+}
+
 function subscribe() {
     let email = document.getElementById('email-subscription').value;
     if (validateEmail(email)) {
@@ -46,7 +51,8 @@ function subscribe() {
 }
 
 function dismiss() {
-    document.getElementById('email-box').classList.add("hidden");
+    document.getElementById('email-box').style.display = 'none';
+    document.getElementById('show-subscribe').style.display = 'block';
 }
 
 function validateEmail(email) {

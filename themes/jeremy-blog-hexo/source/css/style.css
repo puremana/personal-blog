@@ -374,6 +374,13 @@ p img {
   margin: 0 auto 0 auto;
   display: block;
 }
+#show-subscribe {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 175px;
+  cursor: pointer;
+}
 #email-box {
   display: none;
   transition: display 2s;
@@ -404,6 +411,7 @@ p img {
 }
 .dark #email-box input {
   background: #182936;
+  color: white;
 }
 #email-box .button {
   margin: 10px 10px 5px 0px;
@@ -428,6 +436,7 @@ p img {
   list-style-type: none;
   text-align: center;
 }
+
 /* Dark Mode */
 .dark-mode {
   position: fixed;

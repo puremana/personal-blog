@@ -18,10 +18,10 @@
     "hexo-renderer-marked": "^0.3.0",
     "hexo-renderer-stylus": "^0.3.1",
     "hexo-server": "^0.2.0",
-    "hexo-symbols-count-time": "^0.7.0",
-    "js-yaml": ">=3.13.1",
-    "lodash": "^4.17.15",
-    "morgan": ">=1.9.1",
-    "minimist": ">=1.2.2"
+    "hexo-symbols-count-time": "^0.7.1",
+    "js-yaml": "^4.0.0",
+    "lodash": "^4.17.20",
+    "minimist": ">=1.2.2",
+    "morgan": "^1.10.0"
   }
 }

@@ -447,6 +447,31 @@ p img {
   text-align: center;
 }
 
+table {
+  border: 1px solid black;
+  border-radius: 2px;
+  margin-bottom: 1em;
+}
+table th {
+  padding: 5px;
+  background: #313131;
+  color: white;
+  border-radius: 2px;
+  text-align: center;
+}
+.dark table th {
+  background: none;
+  border: 1px solid rgb(143, 191, 253);
+  color: rgb(143, 191, 253);
+}
+table td {
+  padding-right: 5px;
+  text-align: center;
+}
+table td:first-child {
+  text-align: left;
+}
+
 /* Dark Mode */
 .dark-mode {
   position: fixed;

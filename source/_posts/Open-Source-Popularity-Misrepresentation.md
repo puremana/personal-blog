@@ -1,10 +1,13 @@
 ---
-title: Open Source Popularity Misrepresentation
+title: The Lie of OSS Popularity
 date: 2021-02-26 12:47:42
 description: Showing the misrepresentation of Open Source technologies in real-world applications
-keywords: open source
+keywords: oss, open source software, gatsby, wordpress
 tags:
-- Open Source
+- OSS
+- Open Source Software
+- Gatsby
+- Wordpress
 ---
 
 After almost 4 months, my Hackoberfest T-Shirt finally made its way to New Zealand! To celebrate, I explain a problem new developers come across when exploring open source technologies, and why it matters.

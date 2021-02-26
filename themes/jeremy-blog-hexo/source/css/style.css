@@ -236,7 +236,8 @@ li:hover {
   font-size: 1.4em;
 }
 .post p {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  line-height: 30px;
 }
 .post li {
   list-style-type: none;

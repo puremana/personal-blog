@@ -1,4 +1,7 @@
 @media screen and (max-width: 540px) {
+    h2 {
+        font-size: 2em;
+    }
     .nav-text {
         display: none;
     }

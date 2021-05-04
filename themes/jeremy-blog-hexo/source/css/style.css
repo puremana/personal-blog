@@ -35,8 +35,12 @@ a {
 a:hover {
   color: rgb(56, 56, 56);
 }
-h2 {
+h1 {
   font-size: 3em;
+}
+h2 {
+  font-size: 2.5em;
+  padding-right: 20px;
 }
 .italic {
   font-style: italic;
@@ -227,6 +231,10 @@ li:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 20px 0;
+}
+.post .post-header-wrapper {
+  padding: 0;
 }
 .post h3 {
   font-size: 1.6em;
@@ -239,9 +247,12 @@ li:hover {
   margin-bottom: 20px;
   line-height: 30px;
 }
+.post ul {
+  margin: 0 0 20px 20px;
+}
 .post li {
-  list-style-type: none;
   word-wrap: break-word;
+  margin-bottom: 10px;
 }
 .post hr {
   margin: 15px 0 15px 0;
@@ -304,6 +315,7 @@ tr .code {
 .date {
   font-style: italic;
   color: grey;
+  white-space: nowrap;
 }
 .button {
   padding: 10px 20px;
@@ -311,15 +323,18 @@ tr .code {
   color: white;
   display: inline-block;
   margin: 5px 10px 0px 0px;
-  background: #2185d0;
+  background: rgb(0, 110, 253);
+}
+.button:hover {
+  background: rgb(0 82 189);
 }
 .button-container {
   margin-bottom: 50px;
 }
-.tag-list {
-  margin-top: 10px;
+.post .tag-list {
+  margin: 10px 0 0 0;
 }
-.tag-list-item {
+.post .tag-list-item {
   border-radius: 2px;
   padding: 5px 10px;
   font-size: 0.8em;
@@ -352,8 +367,14 @@ tr .code {
   width: 16px;
   text-align: center;
 }
+.fb:hover, .tw:hover {
+  background: black;
+}
 .dismiss {
   background: rgb(185, 0, 0);
+}
+.dismiss:hover {
+  background: rgb(255 0 0);
 }
 .mbom {
   margin-bottom: 10px;

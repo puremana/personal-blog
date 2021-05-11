@@ -48,7 +48,7 @@ There's a valuable [xkcd](https://xkcd.com/) table below you have probably seen 
 
 ### Git Has Downsides
 
-While this may be controversial, I believe when working on these projects, using Git (or any version control) can be detrimental to the project. Let me explain.
+While this may be controversial, I believe when working on these projects, using Git (or any decentralized version control) can be detrimental to the project. Let me explain.
 
 Firstly, these are relatively small software projects with a large number of changes in small amounts of time. Let's run through an example of how using Git would work. You're working happily on a gallery feature and your web designer sees something you missed in the design, perhaps you didn't quite get the transition right, and they want to change it.
 
@@ -56,9 +56,11 @@ Using Git, the workflow would be for the web designer to branch off of your bran
 
 In both of these cases the designer wastes time. Either through communicating exactly what they want or by merging. For a large project, I don't see this as an issue, but like I said these are relatively small software projects and this issue is going to crop up time and time again.
 
-Here is a faster solution. Use FTP. Configure your IDE to not overwrite if the server file date modified is after your date modified. Save frequently. If you get a warning to overwrite, either merge or copy and paste your code into the new file. Back up your servers daily.
+Here is a faster solution. Use SFTP. Configure your IDE to not overwrite if the server file date modified is after your date modified. Save frequently. If you get a warning to overwrite, either merge or copy and paste your code into the new file. Back up your servers daily. 
 
-This is not all to say that Git isn't useful. I just think in this specific use case, the cons of using Git (specifically the time cost) outweigh the pros. If you do not require multiple people to edit the same file simultaneously for rapid development I would highly recommend using a versional control software.
+You may also want to look into centralized version controls such as [Subversion](https://subversion.apache.org/) where the repository is on a central server on not on the worker's separate computers.
+
+This is not all to say that Git isn't useful. I just think in this specific use case, the cons of using Git (specifically the time cost) outweigh the pros. If you do not require multiple people to edit the same file simultaneously for rapid development I see no issue in using decentralized version control such as Git.
 
 ### Technologies Galore
 
@@ -78,3 +80,5 @@ If you are going to work at a digital agency here are some of the certainties.
 ___
 
 Thank you for reading and I hope you learned something new. I am happy to read any constructive criticism in the comments below.
+
+Edit (11/05/2021): Changed FTP to SFTP, added information on centralized and decentralized version control systems.

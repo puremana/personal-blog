@@ -5,6 +5,18 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
+    ],
+      "headers" : [ {
+    "source": "**",
+    "headers" : [
+      { "key" : "Content-Security-Policy", "value" : "script-src 'self' https://www.gstatic.com/firebasejs/ https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js 'nonce-jeremyshaw' https://c.disquscdn.com/ https://io.narrative.io/ https://referrer.disqus.com/ http://cdn.viglink.com/ https://links.services.disqus.com/" },
+      { "key" : "Access-Control-Allow-Origin", "value" : "*" },
+      { "key" : "X-Frame-Options", "value" : "deny" },
+      { "key" : "X-Content-Type-Options", "value" : "nosniff" },
+      { "key" : "Referrer-Policy", "value": "no-referrer" },
+      { "key" : "Permissions-Policy", "value": "microphone 'none'; geolocation 'none'" },
+      { "key" : "X-XSS-Protection", "value" : "1; mode=block" }
     ]
+  }]
   }
 }

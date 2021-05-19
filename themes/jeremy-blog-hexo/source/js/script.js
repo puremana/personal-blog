@@ -1,3 +1,16 @@
+// Initialize Firebase
+var config = {
+apiKey: "AIzaSyC8gktwM_-yeztzHJ26yRW__e-OZZMQoQs",
+authDomain: "personal-blog-8f2f7.firebaseapp.com",
+databaseURL: "https://personal-blog-8f2f7.firebaseio.com",
+projectId: "personal-blog-8f2f7",
+storageBucket: "personal-blog-8f2f7.appspot.com",
+messagingSenderId: "1060930764813"
+};
+firebase.initializeApp(config);
+const db = firebase.firestore();
+db.settings({ timestampsInSnapshots: true });
+
 window.onload = function() {
     let sub = localStorage.getItem('subbed');
     if (!sub) {
@@ -25,12 +38,12 @@ window.onload = function() {
     displayMode(darkMode);
 }
 
-function showSubscribe() {
+document.getElementById('show-subscribe').onclick = function() {
     document.getElementById('show-subscribe').style.display = 'none';
     document.getElementById('email-box').style.display = 'block';
 }
 
-function subscribe() {
+document.getElementById('subscribe-button').onclick = function() {
     let email = document.getElementById('email-subscription').value;
     if (validateEmail(email)) {
         // Adding to Firestore
@@ -50,6 +63,10 @@ function subscribe() {
     }
 }
 
+document.getElementById('dismiss-button').onclick = function() {
+    dismiss();
+}
+
 function dismiss() {
     document.getElementById('email-box').style.display = 'none';
     document.getElementById('show-subscribe').style.display = 'block';
@@ -60,7 +77,7 @@ function validateEmail(email) {
     return re.test(String(email).toLowerCase());
 }
 
-function toggleMode() {
+document.getElementById('dark-mode').onclick = function() {
     let mode = !document.querySelector("body").classList.contains('dark');
     localStorage.setItem("darkMode", mode);
     displayMode(mode);
@@ -76,4 +93,11 @@ function displayMode(dark) {
         body.classList.remove('dark');
         button.innerHTML = '<span class="icon is-small"><i class="fa fa-moon"></i></span>Dark Mode'
     }
+}
+
+document.getElementById('loadXSSImage').onclick = function() {
+    let e = document.getElementById('loadXSSImage');
+    let xssImage = document.createElement("object");
+    xssImage.data = "https://food-roulette-3dd83.web.app/xss-example.svg";
+    e.parentNode.replaceChild(xssImage, e);
 }

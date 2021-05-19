@@ -281,6 +281,7 @@ tr .code {
   display: block;
   letter-spacing: 1px;
   transition: background-color 200ms ease;
+  text-align: left;
 }
 .dark tr .code {
   background-color: #182936;
@@ -324,6 +325,7 @@ tr .code {
   display: inline-block;
   margin: 5px 10px 0px 0px;
   background: rgb(0, 110, 253);
+  cursor: pointer;
 }
 .button:hover {
   background: rgb(0 82 189);

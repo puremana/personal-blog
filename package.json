@@ -19,8 +19,8 @@
     "hexo-renderer-stylus": "^0.3.1",
     "hexo-server": "^0.2.0",
     "hexo-symbols-count-time": "^0.7.1",
-    "js-yaml": "^4.0.0",
-    "lodash": "^4.17.20",
+    "js-yaml": "^4.1.0",
+    "lodash": "^4.17.21",
     "minimist": ">=1.2.2",
     "morgan": "^1.10.0"
   }

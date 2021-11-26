@@ -7,6 +7,10 @@ Uses an entirely custom Hexo theme which can be found in `themes/jeremy-blog-hex
 ![Jeremy Shaw Personal Blog Post Screenshot](personal-blog-screenshot.jpg)
 *Screenshot of an example blog post layout*
 
+## Warning
+
+There is currently an issue whereby `hexo generate` generates empty index.html files when using NodeJS v14 -> v16. Please use NodeJS 12 to build this project.
+
 ## Commands
 
 View all Hexo commands at [https://hexo.io/docs/commands](https://hexo.io/docs/commands)

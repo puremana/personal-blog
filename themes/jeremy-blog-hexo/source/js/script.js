@@ -95,9 +95,12 @@ function displayMode(dark) {
     }
 }
 
-document.getElementById('loadXSSImage').onclick = function() {
-    let e = document.getElementById('loadXSSImage');
-    let xssImage = document.createElement("object");
-    xssImage.data = "https://food-roulette-3dd83.web.app/xss-example.svg";
-    e.parentNode.replaceChild(xssImage, e);
+let loadXSSImage = document.getElementById('loadXSSImage');
+if (loadXSSImage) {
+    loadXSSImage.onclick = function() {
+        let e = document.getElementById('loadXSSImage');
+        let xssImage = document.createElement("object");
+        xssImage.data = "https://food-roulette-3dd83.web.app/xss-example.svg";
+        e.parentNode.replaceChild(xssImage, e);
+    }
 }

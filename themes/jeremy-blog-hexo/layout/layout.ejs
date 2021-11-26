@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <% let rand = Math.floor(Math.random() * 10000000); %>
+    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#000000">
@@ -69,8 +71,8 @@
     <meta name="theme-color" content="#ffffff">
     
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/style.css" type="text/css">
-    <link rel="stylesheet" href="/css/media.css" type="text/css">
+    <link rel="stylesheet" href="/css/style.css?v=<%= rand %>" type="text/css">
+    <link rel="stylesheet" href="/css/media.css?v=<%= rand %>" type="text/css">
 
     <!-- Font and Icon CSS -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -137,8 +139,7 @@
     </div>
  </div>
 
- <% let rand = Math.floor(Math.random() * 10000000); %>
- <script src="/js/script.js?v=<%= rand %>>"></script>
+ <script src="/js/script.js?v=<%= rand %>"></script>
 
  <script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
  <script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>

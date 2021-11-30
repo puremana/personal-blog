@@ -15,7 +15,7 @@ When I saw that [PHP 8.1 had been released](https://www.php.net/releases/8.1/en.
 
 <!-- more -->
 
-How would this version impact Wordpress, the most commonly used content management system on the web? I can’t help but imagine how a small-time saved could compound into a magnitudinal number given that [42.9% of the top 10 million sites run Wordpress](https://w3techs.com/technologies/overview/content_management/all/).
+How would this version impact Wordpress, the most commonly used content management system on the web? I can’t help but imagine how a small time saved could compound into a magnitudinal number given that [42.9% of the top 10 million sites run Wordpress](https://w3techs.com/technologies/overview/content_management/all/).
 
 My curiosity wasn’t satisfied and so without any real benchmarking experience, I decided to give it a go.
 

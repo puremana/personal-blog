@@ -100,6 +100,9 @@ Not caching my site was just something I had completely overlooked, even though 
 
 The audit prompted me to add in various manifest icon sizes, reminding me that I was still using the default React favicon setup. Killing two birds with one stone I used a [favicon generating website](https://www.favicon-generator.org/) to quickly favicon code that supports all browsers, the as well manifest code including all my favicons. After adding in one larger icon to the manifest I was done and the audit was happy.
 
+**Edit 2022/03/23:**
+Website Planet also has a [Favicon Generator tool](https://www.websiteplanet.com/webtools/favicon-generator/) which allows you to upload an image up to 5MB instead of 2MB or choose from one of their gallery. Thank you Laurie Sallow for contacting me about this alternative.
+
 ### Accessibility
 
 #### Sufficient Contrast Ratio

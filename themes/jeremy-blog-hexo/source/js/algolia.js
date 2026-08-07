@@ -1,4 +1,4 @@
-const client = algoliasearch('ZI4FHLZ7Z3', '8e8f87f4039f2be062c9a3c99ec6c849');
+const client = algoliasearch('Y8AX67A5C9', '534ac2c58ccf2d2a67d4aed0cb0d3df3');
 const index = client.initIndex('posts');
 autocomplete('#search-input', { hint: false }, [
   {

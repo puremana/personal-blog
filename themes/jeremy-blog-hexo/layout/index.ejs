@@ -34,10 +34,10 @@
    </div>
 
    <div class="button-container">
-        <% if(page.prev_link != '') { %>
-            <a href="<%- config.url + page.prev_link %>"><div class="button">Previous Page</div></a>
+        <% if(page.prev) { %>
+            <a href="<%- full_url_for(page.prev_link) %>"><div class="button">Previous Page</div></a>
         <% } %>
-        <% if(page.next_link != '') { %>
-            <a href="<%- config.url + page.next_link %>"><div class="button">Next Page</div></a>
+        <% if(page.next) { %>
+            <a href="<%- full_url_for(page.next_link) %>"><div class="button">Next Page</div></a>
         <% } %>
    </div>
